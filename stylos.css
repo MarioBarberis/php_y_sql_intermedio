@@ -1,0 +1,62 @@
+body {
+    background: rgb(193, 189, 193);
+}
+
+header {
+    background: rgba(27, 26, 26, 0.7);
+    width: 100%;
+}
+
+header ul {
+    list-style: none;
+    overflow: hidden; 
+}
+
+header ul li {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 20px;
+}
+
+header ul li a {
+    display: block; 
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header ul li:hover {
+    background: rgb(193, 189, 193);
+  }
+
+  .titulo1 {
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-bottom: -20px;
+  }
+
+  .titulo2 {
+    margin-left: 24px;
+  }
+
+ .formulario {
+  padding: 60px;
+  max-width: 400px;
+  background-color: #E7E7E7;
+  margin: 0 auto;
+  }
+
+  form input, form textarea{
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box; 
+    border: none; 
+    color: #525c66; 
+    font-size: 1em;
+    resize: none; 
+  }
+
+  .caja_alumno{
+    padding: 80px;
+  }

@@ -1,25 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Sistema de administracion</title>
-    <link rel="stylesheet" href="stylo.css">
+<?php
+include ("header.php");
+?>
 
-</head>
-<body>
-    <header>
-        <h1 class="titulo"> COLEGIO INFORMATICO </h1>
-        <h2 class="titulo"> Sistema de administracion:</h2>
-        <ul class="menu_principal">
-            <li><a href="index.php"> Cargar Alumno </a></li>
-            <li><a href="ver.php"> Ver Alumno </a></li>
-            <li><a href="#"> Salir </a></li>
 
-        </ul>
+    <section class="contenedor_carga">
 
-    </header>
+        <h3> Carga de alumnos </h3>
+
+        <form action="cargar_alumno.php" method="post" class="formulario">
+
+        <input type="text" name="nombre" placeholder="Nombre">
+        <input type="text" name="apellido" placeholder="Apellido">
+        <input type="text" name="imagen" placeholder="Imagen">
+        <textarea name="descripcion" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="Cargar Alumno">
+        
+        </form>
+
+    </section>
+
+    <?php
+    if (isset ($_GET['ok'])){
+        echo "<h3> CARGADO CON ÉXITO. </h3>";
+    }
+    ?>
+
 </body>
 </html>
