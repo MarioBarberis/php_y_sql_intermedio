@@ -5,7 +5,7 @@ include ("header.php");
 
     <section class="contenedor_carga">
 
-        <h3> Carga de alumnos </h3>
+        <h3 class="titulo3"> CARGA DE ALUMNOS </h3>
 
         <form action="cargar_alumno.php" method="post" class="formulario">
 

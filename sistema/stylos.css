@@ -39,6 +39,10 @@ header ul li:hover {
     margin-left: 24px;
   }
 
+  .titulo3 {
+   text-align: center;
+  }
+
  .formulario {
   padding: 60px;
   max-width: 400px;
@@ -58,5 +62,11 @@ header ul li:hover {
   }
 
   .caja_alumno{
-    padding: 80px;
+  margin-left: 30px;
+  padding-bottom: 30px;
+  }
+
+  .imga{
+    width: 400px;
+    height: 400px;
   }
