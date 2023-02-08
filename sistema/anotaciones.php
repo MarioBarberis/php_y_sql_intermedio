@@ -1,7 +1,7 @@
 <?php
 
 
-$texto = "<h3> Nombre: ". $_POST['nombre'] ." Apellido: ". $_POST['apellido']. " Comentario: ". $_POST['comentario']. "</h3>";
+$texto = "<h3> <u>NOMBRE</u>: ". $_POST['nombre'] ." <u>APELLIDO</u>: ". $_POST['apellido']. " <u>COMENTARIO</u>: ". $_POST['comentario']. "</h3>";
 
 $archivo = fopen('anot.php', 'a');
 fputs($archivo, $texto);
