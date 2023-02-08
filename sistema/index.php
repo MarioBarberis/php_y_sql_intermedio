@@ -24,6 +24,17 @@ include ("header.php");
         echo "<h3> CARGADO CON ÉXITO. </h3>";
     }
     ?>
+    
+    <h3>COMENTARIOS ESPECIFICOS:</h3>
+
+<form action="anotaciones.php" method="post">
+
+    <input type="text" name="nombre" placeholder="Nombre de Alumno">
+    <input type="text" name="apellido" placeholder="Apellido de Alumno">
+    <textarea name="comentario" id="" cols="30" rows="10"></textarea>
+    <input type="submit" value="Enviar a Anotaciones Internas del Instituto">
+    
+</form>
 
 </body>
 </html>

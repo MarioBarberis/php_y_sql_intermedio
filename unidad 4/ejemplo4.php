@@ -17,11 +17,7 @@ $texto = "<h3> Nombre: ". $_POST['nombre'] ." Apellido: ". $_POST['apellido']. "
 $archivo = fopen('ejemplo1.txt', 'a');
 fputs($archivo, $texto);
 
-echo "<p> Datos Almacenados </p>";  //aca de podria poner una funcion GET para mostrar los datos en una paguina elegida.
-
-
-
-
+echo "<p> Datos Almacenados </p>"; //aca de podria poner una funcion GET para mostrar los datos en una paguina elegida.
 
 ?>
 
