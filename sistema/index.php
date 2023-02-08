@@ -32,7 +32,7 @@ include ("header.php");
     <input type="text" name="nombre" placeholder="Nombre de Alumno">
     <input type="text" name="apellido" placeholder="Apellido de Alumno">
     <textarea name="comentario" id="" cols="30" rows="10"></textarea>
-    <input type="submit" value="Enviar a Anotaciones Internas del Instituto">
+    <input type="submit" value="Enviar a Seccion Anotaciones">
     
 </form>
 
