@@ -23,14 +23,6 @@ while ($mostrar_datos = mysqli_fetch_assoc($consulta_db)) {
 <?php echo $mostrar_datos['descripcion']; ?>
 </p>
 
-<!-- Hora -->
-<?php
-date_default_timezone_set("America/Argentina/Buenos_Aires");
-
-$fecha_actual = getdate(time());
-echo "<p> Fecha de Ingreso: " .date ("d-m-Y | h:s", strtotime("last monday")). "</p>"; 
-?>
-
 <a href="eliminar.php?id=<?php echo $mostrar_datos['id'];?>"> <button> Eliminar Alumno </button></a>
 
 </div>

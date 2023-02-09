@@ -29,9 +29,9 @@ include ("header.php");
 
 <form action="anotaciones.php" method="post">
 
-    <input type="text" name="nombre" placeholder="Nombre de Alumno">
-    <input type="text" name="apellido" placeholder="Apellido de Alumno">
-    <textarea name="comentario" id="" cols="30" rows="10"></textarea>
+    <input type="text" name="nombre1" placeholder="Nombre de Alumno">
+    <input type="text" name="apellido1" placeholder="Apellido de Alumno">
+    <textarea name="comentario1" id="" cols="30" rows="10"></textarea>
     <input type="submit" value="Enviar a Seccion Anotaciones">
     
 </form>

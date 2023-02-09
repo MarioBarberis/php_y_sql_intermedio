@@ -17,7 +17,7 @@
             
             <li><a href="index.php"> Cargar Alumno </a></li>
             <li><a href="ver.php"> Ver Alumno </a></li>
-            <li><a href="anot.php"> Anotaciones</a></li>
+            <li><a href="anot.php"> Anotaciones </a></li>
             <li><a href="#"> Salir </a></li>
 
         </ul>
