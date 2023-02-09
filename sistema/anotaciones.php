@@ -3,7 +3,7 @@
 date_default_timezone_set("America/Argentina/Buenos_Aires");
 $fecha_comen = date("d-m-Y h:i:sa");
 
-$texto = "<h3>  <u>NOMBRE</u>: ". $_POST['nombre1'] ."  <u>APELLIDO</u>: ". $_POST['apellido1']. "  <u>COMENTARIO</u>: ". $_POST['comentario1'] . "  <u>FECHA DE PUBLICACION</u>: ". $fecha_comen ."<br>". "</h3>";
+$texto = "<h4>  <u>NOMBRE</u> :</h4> ". $_POST['nombre1'] ."<h4> <u>APELLIDO</u> :</h4>". $_POST['apellido1']. " <h4> <u>COMENTARIO</u> :</h4> ". $_POST['comentario1'] . " <h4> <u>FECHA DE PUBLICACION</u> :</h4>". $fecha_comen;
 
 $archivo = fopen('anot.php', 'a');
 fputs($archivo, $texto);
