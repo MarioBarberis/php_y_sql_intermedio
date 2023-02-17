@@ -15,10 +15,10 @@
         <h2 class="titulo2"> Sistema de administracion:</h2>
         <ul class="menu_principal">
             
-            <li><a href="index.php"> Cargar Alumno </a></li>
-            <li><a href="ver.php"> Ver Alumno </a></li>
-            <li><a href="anot.php"> Anotaciones </a></li>
-            <li><a href="#"> Salir </a></li>
+            <li><a href="cargar.php"> Cargar Alumno [Admin] </a></li>
+            <li><a href="ver.php"> Ver Alumno [Público] </a></li>
+            <li><a href="anot.php"> Anotaciones [Admin] </a></li>
+            <li><a href="salir.php"> Salir </a></li>
 
         </ul>
 

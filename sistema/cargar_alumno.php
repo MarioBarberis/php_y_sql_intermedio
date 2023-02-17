@@ -1,5 +1,7 @@
 <?php
 
+session_start();  //Esto hace que sea necesario estar con la sesion abierta para ingresar.
+
 //tomar los datos que ponen en el formulario.
 $nombre_alumno = $_POST ['nombre'];
 $apellido_alumno = $_POST ['apellido'];
@@ -13,6 +15,6 @@ mysqli_query($conexion_db, "INSERT INTO alumnos VALUES (DEFAULT, '$nombre_alumno
 
 mysqli_close($conexion_db);
 
-header("Location:index.php?ok");
+header("Location:cargar.php?ok");
 
 ?>
