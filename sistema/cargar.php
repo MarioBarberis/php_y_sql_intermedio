@@ -3,6 +3,19 @@ session_start();
 if (isset($_SESSION['admin'])){
 
 include ("header.php");
+
+//codigo captcha
+
+$nro1 = rand(0, 9);
+$nro2 = rand(0, 9);
+$nro3 = rand(0, 9);
+$letra = array('a', 'h', 'g', 'w', 'k', 't', 'u');
+$simbolo = array('/', '@', '$', '&', '/');
+$mezcla_letra = rand(0, 6);
+$mezcla_simbolo = rand (0, 4);
+
+$_SESSION ['codigo_captcha'] = $nro1 . $letra[$mezcla_letra] . $nro2 . $simbolo[$mezcla_simbolo] . $nro3;
+
 ?>
 
 
@@ -16,6 +29,9 @@ include ("header.php");
 <input type="text" name="apellido" placeholder="Apellido">
 <input type="text" name="imagen" placeholder="Imagen">
 <textarea name="descripcion" id="" cols="30" rows="10"></textarea>
+
+    <img src="captcha.php" alt="captcha">
+    <input type="text" name="captcha" placeholder="Ingrese captcha">
 <input type="submit" value="Cargar Alumno">
 
 </form>
