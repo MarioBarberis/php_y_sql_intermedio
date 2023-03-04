@@ -12,9 +12,11 @@ Estos datos se enviarán al archivo cargar_pedido.php que deberá verificar los 
 </head>
 <body>
 
+<a href="index.php" class="botonvolver"><button type="button">VOLVER</button></a>
+
 <section class="contenedor_carga">
 
-<h3 class="titulo1"><center>CARGA DE PEDIDOS</center> </h3>
+<h3 class="titulouno"><center>CARGA DE PEDIDOS</center> </h3>
 
 <form action="cargar_pedido.php" method="post" class="formulario">
 
@@ -24,10 +26,9 @@ Estos datos se enviarán al archivo cargar_pedido.php que deberá verificar los 
 <textarea name="descripcion" placeholder="Descripcion del pedido" id="" cols="30" rows="10"></textarea>
 <input type="submit" value="CARGAR PEDIDO">
 
-</form>
+</form> 
 
 </section>
-
 
 </body>
 </html>

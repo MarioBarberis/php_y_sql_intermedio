@@ -14,7 +14,9 @@ Cada pedido tendrá una opción de finalizar. Esta acción modificará el valor 
 
 <body>
 
-    <section class="contenedor_alumnos">
+<a href="index.php" class="botonvolver"><button type="button">VOLVER</button></a>
+
+    <section class="contenedor_pedido">
 
         <?php
 
@@ -35,7 +37,7 @@ Cada pedido tendrá una opción de finalizar. Esta acción modificará el valor 
                     <?php echo $mostrar_datos['descripcion']; ?>
                 </p>
 
-                <a href="eliminar.php?id=<?php echo $mostrar_datos['id']; ?>"> <button> Eliminar Pedido </button></a>
+                <a href="eliminar.php?id=<?php echo $mostrar_datos['id']; ?>"> <button> Finalizar Pedido </button></a>
 
             </div>
         <?php

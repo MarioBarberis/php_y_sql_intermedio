@@ -1,3 +1,6 @@
+<!-- Se deberán listar los pedidos finalizados.
+Para acceder a todas las secciones se debe ingresar como cliente (verificar sesión). -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +11,8 @@
     <link rel="stylesheet" href="fondo.css">
 </head>
 <body>
-    <p> hola </p>
+<a href="index.php"><button type="button">VOLVER</button></a>
+
+
 </body>
 </html>
