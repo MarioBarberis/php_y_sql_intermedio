@@ -23,6 +23,7 @@ Las opciones serán “Realizar pedido”, “Ver pedidos”, “Finalizar pedid
                 <li><a href="realizar_pedidos.php"> REALIZAR PEDIDO </a></li>
                 <li><a href="verpedidos.php"> VER PEDIDO </a></li>
                 <li><a href="finalizarpedidos.php"> FINALIZAR PEDIDO </a></li>
+                <li><a href="bdtexto.txt"> Base de Datos Interna </a></li>
 
             </ul>
         </center>

@@ -13,6 +13,16 @@ Para acceder a todas las secciones se debe ingresar como cliente (verificar sesi
 <body>
 <a href="index.php"><button type="button">VOLVER</button></a>
 
+<h3 class="titulodos"> <center> PRODUCTOS ENTREGADOS </center> </h3>
+
+<form action="bdinterno.php" method="post" class="formufinal">
+
+<input type="text" name="nombre1" placeholder="Nombre de Producto">
+<input type="number" name="valor1" placeholder="Valor de Producto">
+<textarea name="comentario1" id="" cols="30" rows="10" placeholder="Comentarios"></textarea>
+<input type="submit" value="Enviar a Base de Datos Interna">
+
+</form>
 
 </body>
 </html>
