@@ -17,8 +17,8 @@ Para acceder a todas las secciones se debe ingresar como cliente (verificar sesi
 
 <form action="bdinterno.php" method="post" class="formufinal">
 
-<input type="text" name="nombre1" placeholder="Nombre de Producto">
-<input type="number" name="valor1" placeholder="Valor de Producto">
+<input type="text" name="nombre1" placeholder="Nombre del producto procesado">
+<input type="number" name="valor1" placeholder="Valor final del Producto">
 <textarea name="comentario1" id="" cols="30" rows="10" placeholder="Comentarios"></textarea>
 <input type="submit" value="Enviar a Base de Datos Interna">
 

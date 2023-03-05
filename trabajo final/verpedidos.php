@@ -37,7 +37,7 @@ Cada pedido tendrá una opción de finalizar. Esta acción modificará el valor 
                     <?php echo $mostrar_datos['descripcion']; ?>
                 </p>
 
-                <a href="eliminar.php?id=<?php echo $mostrar_datos['id']; ?>"> <button> Finalizar Pedido </button></a>
+                <a href="eliminar.php?id=<?php echo $mostrar_datos['id']; ?>"> <button> Pedido procesado con éxito </button></a>
 
             </div>
         <?php

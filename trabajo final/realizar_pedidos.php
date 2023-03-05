@@ -20,10 +20,10 @@ Estos datos se enviarán al archivo cargar_pedido.php que deberá verificar los 
 
 <form action="cargar_pedido.php" method="post" class="formulario">
 
-<input type="text" name="nombre" placeholder="Nombre de pedido">
-<input type="number" name="valor" placeholder="Valor del pedido">
-<input type="text" name="imagen" placeholder="Imagen">
-<textarea name="descripcion" placeholder="Descripcion del pedido" id="" cols="30" rows="10"></textarea>
+<input type="text" name="nombre" placeholder="Pedido a procesar">
+<input type="number" name="valor" placeholder="Valor del producto">
+<input type="text" name="imagen" placeholder="Imagen del producto">
+<textarea name="descripcion" placeholder="Descripcion" id="" cols="30" rows="10"></textarea>
 <input type="submit" value="CARGAR PEDIDO">
 
 </form> 
