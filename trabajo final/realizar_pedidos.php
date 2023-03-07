@@ -11,8 +11,11 @@ Estos datos se enviarán al archivo cargar_pedido.php que deberá verificar los 
     <link rel="stylesheet" href="fondo.css">
 </head>
 <body>
+<?php    
+session_start();
+?>
 
-<a href="index.php" class="botonvolver"><button type="button">VOLVER</button></a>
+<a href="panel.php" class="botonvolver"><button type="button">VOLVER</button></a>
 
 <section class="contenedor_carga">
 

@@ -1,5 +1,3 @@
-<!-- El archivo mostrar_contenido.php deberá contener una botonera que permita realizar, finalizar y ver pedidos (registros, o la que corresponda con la temática seleccionada).
-Las opciones serán “Realizar pedido”, “Ver pedidos”, “Finalizar pedidos”. -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,25 +8,23 @@ Las opciones serán “Realizar pedido”, “Ver pedidos”, “Finalizar pedid
     <title>Sistema de Administracion</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <h1 class="titulo">
-        <center> SISTEMA DE ADMINISTRACION </center>
-    </h1>
 
-    <section class="botonera">
-        <center>
-            <ul class="menu_principal">
+<h2 class="titulotres"> <center> SE SOLICITA ACCESO AUTORIZADO </center> </h2>
 
-                <li><a href="realizar_pedidos.php"> REALIZAR PEDIDO </a></li>
-                <li><a href="verpedidos.php"> VER PEDIDO </a></li>
-                <li><a href="finalizarpedidos.php"> FINALIZAR PEDIDO </a></li>
-                <li><a href="bdtexto.txt"> - Base de Datos Interna - </a></li>
+<section class="contener_carga">
+<form action="validar.php" method="post" class="formulario">
+    <input type="text" name="usuario" required placeholder="Ingrese DNI">
+    <input type="password" name="clave" required placeholder="Ingrese Clave">
+    <input type="submit" value="Ingresar">
+</form>
+</section>
 
-            </ul>
-        </center>
-    </section>
+<?php
+if (isset ($_GET['error'])){
+    echo "<h3> Datos Incorrectos </h3>";
+}
+?>
 
 </body>
-
 </html>

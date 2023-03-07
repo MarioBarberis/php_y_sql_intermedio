@@ -14,7 +14,7 @@ Cada pedido tendrá una opción de finalizar. Esta acción modificará el valor 
 
 <body>
 
-<a href="index.php" class="botonvolver"><button type="button">VOLVER</button></a>
+<a href="panel.php" class="botonvolver"><button type="button">VOLVER</button></a>
 
     <section class="contenedor_pedido">
 
