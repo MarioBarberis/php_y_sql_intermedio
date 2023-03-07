@@ -1,5 +1,4 @@
 <?php
-
 date_default_timezone_set("America/Argentina/Buenos_Aires");
 $fecha_comen = date("d-m-Y h:i:sa");
 
@@ -15,3 +14,4 @@ echo "<p>&nbsp; Datos Almacenados </p>";
 <form action ="index.php" method = "POST">
 <button type="submit" name="button"> Volver a Pagina Principal</button>
 </form>
+
