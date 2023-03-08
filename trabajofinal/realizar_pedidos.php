@@ -13,7 +13,7 @@ if (isset($_SESSION['admin'])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistema de Administracion</title>
+    <title>Sistema de Administracion - Realizar Pedido</title>
     <link rel="stylesheet" href="fondo.css">
 </head>
 <body>
@@ -34,6 +34,11 @@ if (isset($_SESSION['admin'])) {
 
 </form> 
 
+<?php
+    if (isset($_GET['ok'])) {
+        echo "<center> <h5> CARGADO CON ÉXITO. </h5> </center>";
+    }
+?>
 </section>
 
 </body>

@@ -12,11 +12,11 @@ $texto = "<h4> NOMBRE DEL PRODUCTO: </h4> ". $_POST['nombre1'] ."<h4> VALOR FINA
 $archivo = fopen('bdtexto.php', 'a');
 fputs($archivo, $texto);
 
-echo "<p>&nbsp; Datos Almacenados </p>";
+echo "<p> &nbsp; Datos Almacenados Correctamente. </p>";
 
 ?>
 
-<form action ="index.php" method = "POST">
+<form action ="panel.php" method = "POST">
 <button type="submit" name="button"> Volver a Pagina Principal</button>
 </form>
 

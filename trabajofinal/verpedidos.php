@@ -13,7 +13,7 @@ if (isset($_SESSION['admin'])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistema de Administracion</title>
+    <title>Sistema de Administracion - Ver Pedidos</title>
     <link rel="stylesheet" href="fondo.css">
 </head>
 
