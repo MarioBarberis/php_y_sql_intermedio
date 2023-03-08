@@ -1,6 +1,11 @@
 <!-- Se deberán mostrar los pedidos realizados pendientes de entrega.
 Cada pedido tendrá una opción de finalizar. Esta acción modificará el valor del campo “procesando” a finalizado. -->
 
+<?php
+session_start();
+if (isset($_SESSION['admin'])) {
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -48,3 +53,8 @@ Cada pedido tendrá una opción de finalizar. Esta acción modificará el valor 
 </body>
 
 </html>
+
+<?php
+} else {
+    header("Location:index.php");
+}

@@ -1,4 +1,6 @@
 <?php
+session_start(); 
+
 //tomar los datos que ponen en el formulario.
 $nombre_pedido = $_POST ['nombre'];
 $valor_pedido = $_POST ['valor'];
@@ -12,3 +14,4 @@ mysqli_query($conexion_db, "INSERT INTO pedidos VALUES (DEFAULT, '$nombre_pedido
 
 mysqli_close($conexion_db);
 header("Location:realizar_pedidos.php?ok");
+?>

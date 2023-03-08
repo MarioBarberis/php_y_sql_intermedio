@@ -13,3 +13,5 @@ if ($usuario == 'admin' && $clave == 'admin123') {
 } else {
     header('Location: index.php?error');
 }
+
+?>

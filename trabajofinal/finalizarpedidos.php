@@ -1,6 +1,11 @@
 <!-- Se deberán listar los pedidos finalizados.
 Para acceder a todas las secciones se debe ingresar como cliente (verificar sesión). -->
 
+<?php
+session_start();
+if (isset($_SESSION['admin'])) {
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,3 +31,8 @@ Para acceder a todas las secciones se debe ingresar como cliente (verificar sesi
 
 </body>
 </html>
+
+<?php
+} else {
+    header("Location:index.php");
+}

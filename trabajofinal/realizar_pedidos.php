@@ -1,6 +1,12 @@
 <!-- Desarrollar un formulario que permita realizar, (cargar) un pedido. El mismo deberá tener al menos 4 ítems y deberá incluir una imagen.
 Estos datos se enviarán al archivo cargar_pedido.php que deberá verificar los datos y cargados a una tabla. La tabla tendrá una opción de “estado” en donde inicialmente se cargara como “procesando”.
  -->
+
+ <?php
+session_start();
+if (isset($_SESSION['admin'])) {
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,9 +17,6 @@ Estos datos se enviarán al archivo cargar_pedido.php que deberá verificar los 
     <link rel="stylesheet" href="fondo.css">
 </head>
 <body>
-<?php    
-session_start();
-?>
 
 <a href="panel.php" class="botonvolver"><button type="button">VOLVER</button></a>
 
@@ -35,3 +38,8 @@ session_start();
 
 </body>
 </html>
+
+<?php
+} else {
+    header("Location:index.php");
+}

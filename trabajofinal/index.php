@@ -14,7 +14,7 @@
 
 <section class="contener_carga">
 <form action="validar.php" method="post" class="formulario">
-    <input type="text" name="usuario" required placeholder="Ingrese DNI">
+    <input type="text" name="usuario" required placeholder="Ingrese Usuario">
     <input type="password" name="clave" required placeholder="Ingrese Clave">
     <input type="submit" value="Ingresar">
 </form>
@@ -22,7 +22,7 @@
 
 <?php
 if (isset ($_GET['error'])){
-    echo "<h3> Datos Incorrectos </h3>";
+    echo "<center><h3> Datos Incorrectos </h3></center>";
 }
 ?>
 

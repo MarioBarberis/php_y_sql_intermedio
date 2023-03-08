@@ -1,22 +1,22 @@
 <!-- El archivo mostrar_contenido.php deberá contener una botonera que permita realizar, finalizar y ver pedidos (registros, o la que corresponda con la temática seleccionada).
 Las opciones serán “Realizar pedido”, “Ver pedidos”, “Finalizar pedidos”. -->
-<!DOCTYPE html>
-<html lang="en">
+<?php
+session_start();
+if (isset($_SESSION['admin'])) {
+?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistema de Administracion</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <!DOCTYPE html>
+    <html lang="en">
 
-<body>
-    <?php
-    session_start();
-    if (isset($_SESSION['admin'])){
-    ?>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sistema de Administracion</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
 
+    <body>
         <h1 class="titulo">
             <center> SISTEMA DE ADMINISTRACION </center>
         </h1>
@@ -28,20 +28,20 @@ Las opciones serán “Realizar pedido”, “Ver pedidos”, “Finalizar pedid
                     <li><a href="realizar_pedidos.php"> REALIZAR PEDIDO </a></li>
                     <li><a href="verpedidos.php"> VER PEDIDO </a></li>
                     <li><a href="finalizarpedidos.php"> FINALIZAR PEDIDO </a></li>
-                    <li><a href="bdtexto.txt"> - Base de Datos Interna - </a></li>
+                    <li><a href="bdtexto.php"> - Base de Datos Interna - </a></li>
 
                 </ul>
             </center>
         </section>
 
-        <center><a href="index.php" class="botonvolver"><button type="button">CERRAR SESION</button></a></center>
+        <center><a href="salir.php" class="botonvolver"><button type="button">CERRAR SESION</button></a></center>
 
+    </body>
+
+    </html>
+    
     <?php
-    } else {
-        header("Location:index.php");
-    }
+} else {
+    header("Location:index.php");
+}
     ?>
-
-</body>
-
-</html>
