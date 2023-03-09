@@ -18,7 +18,7 @@ if (isset($_SESSION['admin'])) {
 </head>
 <body>
 
-<a href="panel.php" class="botonvolver"><button type="button">VOLVER</button></a>
+<a href="panel.php"><button type="button" class="arrowLeft">VOLVER</button></a>
 
 <section class="contenedor_carga">
 

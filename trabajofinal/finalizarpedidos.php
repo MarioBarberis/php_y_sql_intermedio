@@ -16,7 +16,7 @@ if (isset($_SESSION['admin'])) {
     <link rel="stylesheet" href="fondo.css">
 </head>
 <body>
-<a href="panel.php"><button type="button">VOLVER</button></a>
+<a href="panel.php"><button type="button" class="arrowLeft">VOLVER</button></a>
 
 <h3 class="titulodos"> <center> PRODUCTOS ENTREGADOS </center> </h3>
 
