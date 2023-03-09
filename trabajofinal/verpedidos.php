@@ -35,7 +35,7 @@ if (isset($_SESSION['admin'])) {
 
             <div class="caja_pedido">
 
-                <h2> <?php echo $mostrar_datos['nombre'] . " " . $mostrar_datos['valor']; ?></h2>
+                <h2> <?php echo $mostrar_datos['nombre'] . " " . "$ ". $mostrar_datos['valor']; ?></h2>
 
                 <img src="img/<?php echo $mostrar_datos['imagen'] ?>" alt="<?php echo $mostrar_datos['nombre']; ?>" class="imga">
 

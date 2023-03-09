@@ -29,3 +29,4 @@ if (isset($_SESSION['admin'])) {
 <h4> NOMBRE DEL PRODUCTO: </h4> Tablet WUO<h4> VALOR FINAL: </h4>34000 <h4> COMENTARIO: </h4>Tablet china de uso cotidiano. <h4> FECHA DE PUBLICACION: </h4>08-03-2023 08:12:36pm
 <h4> NOMBRE DEL PRODUCTO: </h4> Iphone Super VI<h4> VALOR FINAL: </h4>450600 <h4> COMENTARIO: </h4>Unico e inigualable. <h4> FECHA DE PUBLICACION: </h4>08-03-2023 09:47:20pm
 &nbsp;&nbsp;&nbsp;<h4> NOMBRE DEL PRODUCTO: </h4> Iphone Elevion<h4> VALOR FINAL: </h4>230000 <h4> COMENTARIO: </h4>Llegada con demora. <h4> FECHA DE PUBLICACION: </h4>08-03-2023 10:26:18pm
+<h4> NOMBRE DEL PRODUCTO: </h4> Finalizamos pedido prueba final<h4> VALOR FINAL: </h4>150000 <h4> COMENTARIO: </h4>Ultima prueba de la base de datos interna. <h4> FECHA DE PUBLICACION: </h4>09-03-2023 11:28:29am
