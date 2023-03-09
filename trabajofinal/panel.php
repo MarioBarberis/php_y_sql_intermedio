@@ -34,7 +34,7 @@ if (isset($_SESSION['admin'])) {
             </center>
         </section>
 
-        <center><a href="salir.php" class="botonvolver"><button type="button">CERRAR SESION</button></a></center>
+        <center><a href="salir.php"><button type="button" class="cerrars">CERRAR SESION</button></a></center>
 
     </body>
 
